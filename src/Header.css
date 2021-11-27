@@ -1,0 +1,46 @@
+.main-division{
+ background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+
+ .logo{
+     height:40px;
+     width: auto;
+     margin: 5px;
+ }
+ .location{
+     color: white;
+     margin: 5px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 400;
+     font: italic;   
+ }
+.search-bar{
+     flex: 1;  
+}
+
+.search-bar > input{
+    padding:5px;
+    width:100%
+}
+
+.options{
+    display: flex;
+}
+
+.login-details{
+    display: flex;
+    flex-direction: column;
+}
+small{
+    color: white;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font: italic;
+    cursor: pointer;  
+}
