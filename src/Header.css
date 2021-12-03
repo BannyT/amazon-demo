@@ -25,7 +25,8 @@
 
 .search-bar > input{
     padding:5px;
-    width:100%
+    width:90%;
+    border-radius:5px
 }
 
 .options{
@@ -35,14 +36,16 @@
 .login-details{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 small{
     color: white;
-    margin: 5px;
+    margin-left: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font: italic;
-    cursor: pointer;  
+    cursor: pointer; 
+    margin-right:10px; 
 }
 .basket{
     color:white !important
