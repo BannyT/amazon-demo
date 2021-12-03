@@ -9,5 +9,34 @@
     z-index: 1;
     margin: 6px;
     justify-content: flex-end;
+    border-radius: 5px;
+    border: 1px solid rgb(236, 235, 235);
+    box-shadow: ".5px .5px .5px 0px rgba(168,168,168,0.61)"
 
+}
+.product_image >img{
+    max-height: 200px;
+    width: 90%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.content{
+    height: 150px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.button-section > button{
+    background-color: orange;
+    border: 1px solid;
+    margin: 10px;
+    border-color: rgb(194, 131, 13);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.content > p{
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+     font-weight:lighter;
 }

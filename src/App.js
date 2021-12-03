@@ -9,7 +9,14 @@ function App() {
     <div className="App">
       <Header/>
       <Banner/>
-      <Product/>   
+      <div className="product-row">
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+      </div>
+         
     </div>
   );
 }
