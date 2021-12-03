@@ -19,7 +19,7 @@ const Header = () => {
                   </small>
               </div>
               <div className="Cart">
-                 <ShoppingCartIcon/>
+                 <ShoppingCartIcon className="basket"/>
               </div>
          </div>
     </div>
