@@ -15,7 +15,7 @@
 
 }
 .product_image >img{
-    max-height: 200px;
+    max-height: 270px;
     width: 90%;
     object-fit: contain;
     margin-bottom: 15px;
@@ -28,9 +28,13 @@
 .button-section > button{
     background-color: orange;
     border: 1px solid;
+    padding: 10px;
     margin: 10px;
+    height: 45px;
+    width: auto;
     border-color: rgb(194, 131, 13);
     margin-top: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 .content > p{
